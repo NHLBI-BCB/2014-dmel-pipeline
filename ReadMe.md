@@ -1,4 +1,4 @@
-# D. melanogaster seasonality variant calling pipeline
+# D. melanogaster variant calling pipeline
 
 This pipeline maps, decontaminates and calls variants for pooled drosophila melanogaster sequence data.
 
