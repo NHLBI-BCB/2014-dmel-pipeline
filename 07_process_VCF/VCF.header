@@ -1,0 +1,18 @@
+##fileformat=VCFv4.1
+##fileDate=08/28/2014
+##source=CRISP_V0.1, but population allele frequencies have been converted to AD:DP format. Also, Distance to nearest indel has been calculated. D. simulans contamination was removed from VA_11_2012 PA_11_2012 PA_07_2012 FL_2010_S2 PA_11_2011 before calling SNPs
+##reference=ftp://ftp.fruitfly.org/pub/download/compressed/dmel_release5.tgz
+##CRISPoptions: poolsize=100,bamfiles=28,qvoffset=33,bedfile=None,min_base_quality=10
+##INFO=<ID=D2I,Number=1,Type=Integer,Description="Distance to nearest indel">
+##INFO=<ID=AF,Number=.,Type=Float,Description="Allele frequency of all alternate alleles, followed by frequency of individual alternate alleles">
+##INFO=<ID=NP,Number=1,Type=Integer,Description="AD/DP">
+##INFO=<ID=DP,Number=2,Type=Integer,Description="Total number of reads (+strand,-strand) across all pools (filtered reads only)">
+##INFO=<ID=CT,Number=.,Type=Float,Description="contingency table p-value for each variant allele in same order as listed in column 5">
+##INFO=<ID=QVpf,Number=.,Type=Float,Description="quality values based p-value for each variant allele using forward strand reads">
+##INFO=<ID=QVpr,Number=.,Type=Float,Description="quality values based p-value for each variant allele using reverse strand reads">
+##INFO=<ID=VP,Number=.,Type=Integer,Description="Number of Pools with variant allele(s)">
+##INFO=<ID=HP,Number=.,Type=Integer,Description="Ambiguity in positioning of indel (homopolymer run length or microsatellite length)">
+##INFO=<ID=MQ,Number=.,Type=Integer,Description="# of reads with mapping qualities <1,<20,<30,30+">
+##FORMAT=<ID=AD,Number=.,Type=Integer,Description="Alternate allele depth">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Total allele count depth (alternate + reference counts)">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	BA_11_2012	BA_07_2012	FL_2010_S1	FL_2010_S2	GA_2008	MA_11_2012	MA_07_2012	ME_2009_S1	ME_2009_S2	NC_2003	NY_11_2012	NY_07_2012	PA_10_2011	PA_11_2009	PA_11_2010	PA_11_2011	PA_11_2012	PA_07_2012	PA_07_2009	PA_07_2010	PA_07_2011	SC_2010	WI_09_2012	PA_9_2012	VA_11_2012	VA_07_2012	VI_11_2012	VI_07_2012	WI_11_2012	WI_07_2012
