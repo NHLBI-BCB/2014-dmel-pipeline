@@ -6,7 +6,7 @@ This pipeline maps, decontaminates and calls variants for pooled drosophila mela
 Download D. melanogaster and D. simulans reference genomes
 
 ##01_sample_data
-Create symlinks (to save diskspace) to all raw sequence data.
+Create symlinks (to save diskspace) to all raw sequence data. Also, split 2012-nescent data by barcode and trim barcodes.
 
 ##02_mapping
 Map raw reads to reference genome using bwa-mem, deduplicate, re-align using GATK. (plus fix phred scores for some read libraries).
